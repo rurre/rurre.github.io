@@ -1,0 +1,9 @@
+{
+  "label": "VRC to Warudo Exporter ✨",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "warudo-exporter",
+    "description": "A set of tools and patches that allow you to export your VRChat avatar to Warudo, directly out of your Unity 2022 project."
+  }
+}

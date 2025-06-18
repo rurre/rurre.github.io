@@ -1,0 +1,15 @@
+warudo:
+  label: Warudo
+  description: Warudo related stuff
+
+vrchat:
+  label: VRChat
+  description: VRChat related stuff
+
+unity:
+  label: Unity
+  description: Unity related stuff
+
+tool:
+  label: Tool
+  description: A tool of some sort
