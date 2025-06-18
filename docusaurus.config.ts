@@ -147,12 +147,8 @@ const config: Config = {
           items: [
             {
               label: 'Updates',
-              to: '/Updates',
-            },
-            {
-              label: 'Licenses',
-              href: '/Licenses',
-            },
+              to: '/updates',
+            }
           ],
         },
       ],
