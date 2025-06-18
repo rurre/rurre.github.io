@@ -9,6 +9,21 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Warudo Exporter v1.0.1]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-0-1</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-0-1</guid>
+            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed Git check failing in the packages step of the Install Wizard. The check should now work correctly, but just in case I also made it not block the next step.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed Git check failing in the packages step of the Install Wizard. The check should now work correctly, but just in case I also made it not block the next step.</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
             <title><![CDATA[Warudo Exporter Released!]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-released</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-released</guid>

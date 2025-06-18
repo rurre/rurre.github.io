@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrurre_github_io=self.webpackChunkrurre_github_io||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Warudo Exporter Released!","permalink":"/updates/warudo-exporter-released","unlisted":false,"date":"2025-06-18T00:00:00.000Z"}]}')}}]);
