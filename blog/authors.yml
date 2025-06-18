@@ -1,9 +1,0 @@
-pumkin:
-  name: Pumkin
-  title: Shiny Virtual Cat
-  image_url: /img/pfps/shiny-cat-blue.png
-  page: true
-  socials:
-    x: notpumkin
-    bluesky: pumkin.bsky.social
-    github: rurre

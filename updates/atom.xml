@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rurre.github.io/updates</id>
+    <title>Pumkin's Tools Blog</title>
+    <updated>2025-06-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rurre.github.io/updates"/>
+    <subtitle>Pumkin's Tools Blog</subtitle>
+    <icon>https://rurre.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter Released!]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-released</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-released"/>
+        <updated>2025-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After about a month of hard work, Warudo Exporter 1.0 has finally released!]]></summary>
+        <content type="html"><![CDATA[<p>After about a month of hard work, Warudo Exporter 1.0 has finally released!</p>
+<p>I'll be supporting it for a while, as there's still a bunch of stuff to do, so stay tuned!</p>
+<p>Check out the <a href="https://rurre.github.io/docs/warudo-exporter/">documentation</a> for more info!</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+</feed>
