@@ -13,6 +13,9 @@ tags: [warudo, vrchat, unity, tool]
 - Fixed error when trying to build a mod without the exporter script being on the avatar.
 - Fixed some other stuff I forgor 💀
 
+### Known Issues:
+- A popup complaining about being unable to open a read only scene will popup every time you do something. For now, to fix this open `Window` > `Package Manager` and remove NDMF from the list of packages. Then, import NDMF through VRChat Creator Companion.
+
 
 To update delete the `Assets/Pumkin` folder. If you already imported the Warudo SDK, also delete the `Assets/Warudo`, `Assets/Warudo SDK` and `Assets/Packages` folders. Then import the new Unity Package.
 
