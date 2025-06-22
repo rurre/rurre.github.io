@@ -4,10 +4,46 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Wed, 18 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.1.0]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-1-0</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-1-0</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Added initial support for VRCFury.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Added initial support for VRCFury.</li>
+<li>Potentially fixed avatars exporting lying on the floor.</li>
+<li>Potentially fixed package resolve button throwing errors in the installer.</li>
+<li>Added link to this documentation in the tool header. Just click the little (?) in the inspector.</li>
+<li>Fixed error when trying to export without an avatar descriptor.</li>
+<li>Fixed error when trying to build a mod without the exporter script being on the avatar.</li>
+<li>Fixed some other stuff I forgor 💀</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.0.2]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-0-2</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-0-2</guid>
+            <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed some errors when building. I actually kinda forgor what it was.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed some errors when building. I actually kinda forgor what it was.</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.0.1]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-0-1</link>
