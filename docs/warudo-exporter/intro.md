@@ -19,7 +19,7 @@ Please note that the tool is still in it's early stages, and while functional, t
 
 :::
 
-All this allows it to work in Warudo. Check [Technical Details](./technical-details) if you're interested in the nerdy details.
+All this allows it to work in Warudo. Check [Technical Details](technical-details.md) if you're interested in the nerdy details.
 
 ### Special Thanks
 - Thanks to [Haï](https://docs.hai-vr.dev/) for advice and for their [Denormalized Exporter](https://docs.hai-vr.dev/docs/products/denormalized-avatar-exporter), which was used as a base for mine.
