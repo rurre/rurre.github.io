@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rurre.github.io/updates</id>
     <title>Pumkin's Tools Blog</title>
-    <updated>2025-06-22T00:00:00.000Z</updated>
+    <updated>2025-06-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rurre.github.io/updates"/>
     <subtitle>Pumkin's Tools Blog</subtitle>
     <icon>https://rurre.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.1.1]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-1-1</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-1-1"/>
+        <updated>2025-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.</li>
+<li>Install Wizard package installer fixes. Should be a bit less likely to blow up your project now.</li>
+<li>Fixed packages like NDMF not installing.</li>
+<li>Added warnings for vrlabs dynamic bone and finalik stubs in project.</li>
+<li>Fixed "Can't open scene in readonly package" popping up all the time.</li>
+<li>Fixed a bunch of other smaller errors here and there.</li>
+<li>Added warning for mod path being the default value (Assets), which would fail the build if unchanged.</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.1.0]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-1-0</id>

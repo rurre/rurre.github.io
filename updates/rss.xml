@@ -4,10 +4,31 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Sun, 22 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.1.1]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-1-1</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-1-1</guid>
+            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.</li>
+<li>Install Wizard package installer fixes. Should be a bit less likely to blow up your project now.</li>
+<li>Fixed packages like NDMF not installing.</li>
+<li>Added warnings for vrlabs dynamic bone and finalik stubs in project.</li>
+<li>Fixed "Can't open scene in readonly package" popping up all the time.</li>
+<li>Fixed a bunch of other smaller errors here and there.</li>
+<li>Added warning for mod path being the default value (Assets), which would fail the build if unchanged.</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.1.0]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-1-0</link>
