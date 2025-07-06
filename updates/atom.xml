@@ -16,9 +16,9 @@
         <content type="html"><![CDATA[<ul>
 <li>Test build assets should no longer disappear after going into play mode.</li>
 <li>Warudo sdk step should no longer explode the project if Dynamic Bones already exist in the project.</li>
-<li>Fixed Arkit blendshape translation error when blendshape with name we're trying to translate to already exists.
-To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</li>
-</ul>]]></content>
+<li>Fixed Arkit blendshape translation error when blendshape with name we're trying to translate to already exists.</li>
+</ul>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
         <author>
             <name>Pumkin</name>
         </author>
