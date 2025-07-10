@@ -28,6 +28,28 @@
         <category label="Tool" term="Tool"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.2.0]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-2-0</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-2-0"/>
+        <updated>2025-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Fixed VRCFury avatar copy being left in the scene when not using VRCFury.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed VRCFury avatar copy being left in the scene when not using VRCFury.</li>
+<li>Fixed unlocked Poiyomi materials in material swap animations not getting locked.</li>
+<li>Added workaround for material swap animations crashing Warudo. <strong>Tell me if it works for you!</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-2-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.1.1]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-1-1</id>
         <link href="https://rurre.github.io/updates/warudo-exporter-1-1-1"/>

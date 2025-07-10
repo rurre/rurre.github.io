@@ -26,6 +26,25 @@
             <category>Tool</category>
         </item>
         <item>
+            <title><![CDATA[Warudo Exporter v1.2.0]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-2-0</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-2-0</guid>
+            <pubDate>Sun, 06 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed VRCFury avatar copy being left in the scene when not using VRCFury.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed VRCFury avatar copy being left in the scene when not using VRCFury.</li>
+<li>Fixed unlocked Poiyomi materials in material swap animations not getting locked.</li>
+<li>Added workaround for material swap animations crashing Warudo. <strong>Tell me if it works for you!</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-2-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
             <title><![CDATA[Warudo Exporter v1.1.1]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-1-1</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-1-1</guid>
