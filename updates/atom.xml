@@ -2,21 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rurre.github.io/updates</id>
     <title>Pumkin's Tools Blog</title>
-    <updated>2025-07-06T00:00:00.000Z</updated>
+    <updated>2025-08-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rurre.github.io/updates"/>
     <subtitle>Pumkin's Tools Blog</subtitle>
     <icon>https://rurre.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Warudo Exporter v1.1.2]]></title>
-        <id>https://rurre.github.io/updates/warudo-exporter-1-1-2</id>
-        <link href="https://rurre.github.io/updates/warudo-exporter-1-1-2"/>
-        <updated>2025-07-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[- Test build assets should no longer disappear after going into play mode.]]></summary>
+        <title type="html"><![CDATA[Warudo Exporter v1.3.2]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-3-2</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-3-2"/>
+        <updated>2025-08-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Fixed avatar arms/shoulders pointing too far in after normalizing bones if your avatar was in a A pose instead of a T pose in the scene.]]></summary>
         <content type="html"><![CDATA[<ul>
-<li>Test build assets should no longer disappear after going into play mode.</li>
-<li>Warudo sdk step should no longer explode the project if Dynamic Bones already exist in the project.</li>
-<li>Fixed Arkit blendshape translation error when blendshape with name we're trying to translate to already exists.</li>
+<li>Fixed avatar arms/shoulders pointing too far in after normalizing bones if your avatar was in a A pose instead of a T pose in the scene.</li>
+<li>Added missing <code>com.unity.cinemachine</code> dependency to package.json. You no longer need to import this manually.</li>
+</ul>
+<p>To update, delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>
+<p>⚠️ <strong>Note</strong> ⚠️
+The exporter will now import itself into the <code>Packages</code> folder so it will end up in <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> . In the future, this folder will be the one you'll have to remove when updating. You can however, remove this with the Unity Package Manager by going to <code>Window</code> &gt; <code>Package Manager</code> and removing <code>Pumkin's Warudo Exporter</code> from there.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.3.1]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-3-1</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-3-1"/>
+        <updated>2025-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This whole release focused on reworking the package installer to be more reliable. Did I succeed? I don't know yet!]]></summary>
+        <content type="html"><![CDATA[<p>This whole release focused on reworking the package installer to be more reliable. Did I succeed? I don't know yet!</p>
+<ul>
+<li>Reworked Install Wizard's package installer step to use <a href="https://github.com/vrc-get/" target="_blank" rel="noopener noreferrer">vrc-get</a>. This should hopefully make it less likely to break all the time. This does mean you might see a spooky cmd window pop up for a second when installing packages.</li>
+<li>Made Warudo Exporter a VPM package. This means it now lives in the Packages folder and has other vpm packages show up as dependencies.</li>
+<li>Created a VPM repo for VRM packages Warudo sdk needs. The repo for these gets added automatically.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Avatar arms/shoulders point inwards after getting normalized if the avatar was in a A pose instead of a T pose in the scene. This will be fixed next update.</li>
+<li>If you're getting "Can't open scene in readonly package" pop up all the time, update the <code>Non-Destructive Modular Framework</code> package inside VRChat Creator Companion.</li>
+</ul>
+<p>To update, delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>
+<p>⚠️ <strong>Note</strong> ⚠️
+The exporter will now import itself into the <code>Packages</code> folder so it will end up in <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> . In the future, this folder will be the one you'll have to remove when updating. You can however, remove this with the Unity Package Manager by going to <code>Window</code> &gt; <code>Package Manager</code> and removing <code>Pumkin's Warudo Exporter</code> from there.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.3.0]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-3-0</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-3-0"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Fixed compile error related to DynamicBones not being in the project after importing the tools.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed compile error related to DynamicBones not being in the project after importing the tools.</li>
+<li>Disabled <code>Remove VRC Components</code> by default as it was causing a bunch of confusion.</li>
+<li>Fixed project exploding if FinalIK was in the project when importing the tools.</li>
+<li>Potentially fixed project exploding if UniVRM was in the project, in the Assets folder. Haven't tested this properly, might still explode.</li>
+<li>Added a new option to <code>Add VRM Blendshape Proxy if Missing</code> to your avatar. This skips having to manually setup VRM blendshapes if using VRM 0.x blendshapes for face tracking.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>
+<p>Exported Warudo mod bundles are much larger in file size than they should be if your project has a lot of stuff in it. It seems like a bunch of unnecessary assets get included in the build. While this has been an issue from the start, it has only now come to my attention.
+For now, you can open your mod settings with the button in the exporter window, go to the <code>Build</code> tab and set the <code>Optimize For</code> setting to <code>File Size</code>. This will cut down the file size significantly (often from like 500mb to 90mb). I'm looking into fixing this soon.</p>
+</li>
+<li>
+<p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
+</li>
 </ul>
 <p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
         <author>
@@ -31,7 +92,7 @@
         <title type="html"><![CDATA[Warudo Exporter v1.2.0]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-2-0</id>
         <link href="https://rurre.github.io/updates/warudo-exporter-1-2-0"/>
-        <updated>2025-07-06T00:00:00.000Z</updated>
+        <updated>2025-07-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- Fixed VRCFury avatar copy being left in the scene when not using VRCFury.]]></summary>
         <content type="html"><![CDATA[<ul>
 <li>Fixed VRCFury avatar copy being left in the scene when not using VRCFury.</li>
@@ -40,6 +101,26 @@
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-2-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
 <p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
+<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.1.2]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-1-2</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-1-2"/>
+        <updated>2025-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Test build assets should no longer disappear after going into play mode.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Test build assets should no longer disappear after going into play mode.</li>
+<li>Warudo sdk step should no longer explode the project if Dynamic Bones already exist in the project.</li>
+<li>Fixed Arkit blendshape translation error when blendshape with name we're trying to translate to already exists.</li>
+</ul>
 <p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
         <author>
             <name>Pumkin</name>
