@@ -16,6 +16,7 @@
         <content type="html"><![CDATA[<ul>
 <li>Fixed avatar arms/shoulders pointing too far in after normalizing bones if your avatar was in a A pose instead of a T pose in the scene.</li>
 <li>Added missing <code>com.unity.cinemachine</code> dependency to package.json. You no longer need to import this manually.</li>
+<li>Disabled <code>Assign FX Controller to Animator</code> by default as it was causing some confusion.</li>
 </ul>
 <p>To update, delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>
 <p>⚠️ <strong>Note</strong> ⚠️
