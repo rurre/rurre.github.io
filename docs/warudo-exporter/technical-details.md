@@ -27,6 +27,15 @@ This isn't an issue when newer versions of Unity read this property on something
 
 So, to fix this I run an NDMF pass that attaches a simple script to all objects with Constraints on them. This script enables the Constraint on Start() then removes itself. It also (non-destructively) modifies all animation clips that use the new name to use the old one instead, making the animation work correctly in either version of Unity.
 
+## Unity 2021-2022 and Material Swap Animations
+Another issue I recently discovered is animations that swap materials on renderers. For whatever reason, having one of these in an animator on your avatar instantly crashes Warudo upon loading the avatar. That's.. not ideal, so I came up with a workaround.
+
+A ndmf pass is run to check all animations for material swaps. If one is found, a couple of things happen. First, a MaterialSwapManager script is attached to the GameObject the animator that animator is on. Then, all material swaps in animations on that are registered with the material swap manager.
+
+The manager stores a list of material swaps, including the renderer, the material and the material slot in said renderer. Upon registering a swap in the manager, an index for that swap is returned. The animation clip is then modified to remove the material swap and instead replace it with an animation event asking the manager script to perform the swap using the earlier returned index.
+
+This seems to work pretty well since material swap keyframes can't blend between each other anyway.
+
 
 ## Harmony Patching UMod to Include External Scripts
 For this usecase, UMod has a very annoying limitation. It only includes files inside your mod's export folder in it's mod builds, so to include this script, that's meant to be uploaded on multiple avatars, in every avatar mod export, I would need to either duplicate and rename a copy to put into every export folder (causing script recompiles), or move the single script around every mod folder when a build needs to happen. Sounds reasonable, but in case of a failure, I could lose track of this script and the whole feature would stop working.
