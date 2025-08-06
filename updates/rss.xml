@@ -4,10 +4,29 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Sat, 02 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.3.3]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-3-3</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-3</guid>
+            <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed bug with the Add VRM 0.x Blendshape Proxy if Missing option that caused your avatar to not load or load broken if you were missing the blendshapes it was looking for.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed bug with the <code>Add VRM 0.x Blendshape Proxy if Missing</code> option that caused your avatar to not load or load broken if you were missing the blendshapes it was looking for.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-3#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.3.2]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-3-2</link>
