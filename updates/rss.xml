@@ -4,10 +4,30 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Wed, 06 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.3.4]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-3-4</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-4</guid>
+            <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed avatar's arms being behind their back if exported in an A pose. Again. It should reset your pose to the rig config pose before normalizing now (which should be a T pose).]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed avatar's arms being behind their back if exported in an A pose. Again. It should reset your pose to the rig config pose before normalizing now (which should be a T pose).</li>
+<li>Fixed custom scripts for Constraint compatibility and Material Swap animations not working. This should hopefully fix all custom scripts not working in Warudo.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-4#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.3.3]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-3-3</link>
