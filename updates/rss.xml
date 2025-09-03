@@ -4,10 +4,45 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.4.0]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-4-0</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-4-0</guid>
+            <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Added options to the exporter next to every feature.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Added options to the exporter next to every feature.</li>
+<li>Added an option to force reset pose to rig config pose (which should be a tpose) when normalizing avatar.</li>
+<li>Added an option to keep VRC Physbones and VRC Physbone colliders when removing VRC components.</li>
+<li>Fixed install wizard errors preventing the package import step from being completed.</li>
+<li>Fixed having any VRCFury components on the avatar breaking your avatar in Warudo.</li>
+<li>Added a <code>Remove On Export</code> component that removes the GameObject it's attached to during a Warudo build.</li>
+<li>Expanded the rename blendshapes feature:<!-- -->
+<ul>
+<li>You can now select a preset for what translations list to use, edit it or create your own.</li>
+<li>Merge multiple blendshapes into one, change their strength or split blendshapes into left and right variants.</li>
+</ul>
+</li>
+<li>Added console output for the Package Install step to see exactly what vrc-get is trying to do.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-4-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Blendshape translations don't translate in animations. Probably won't matter to most people.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-4-0#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.3.4]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-3-4</link>
