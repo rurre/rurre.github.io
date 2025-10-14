@@ -4,10 +4,32 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Fri, 12 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.5.0]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-5-0</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-0</guid>
+            <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- ❗ Workflow change! Mod settings now get defined inside the exporter component. This lets you skip having to go through Warudo sdk menus or create folders. It just works™]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>❗ <strong>Workflow change!</strong> Mod settings now get defined inside the exporter component. This lets you skip having to go through Warudo sdk menus or create folders. It just works™
+You can also save settings to an asset and reuse it among different avatars!
+If you would like to use the old way of doing this (for whatever reason) you can select the <code>Mod Info Source</code> to <code>FromWarudoSdk</code>.</li>
+<li>Fixed all scenes getting closed when exporting an avatar.</li>
+<li>Fixed a bunch of random errors that have been reported recently.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm looking into a potential workaround.</li>
+</ul>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.4.3]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-4-3</link>
