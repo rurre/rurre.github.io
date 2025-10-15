@@ -12,6 +12,8 @@ This allows you build your avatar in the scene without exporting it to Warudo. U
 
 This option is equivalent to Hai's Denormalized Exporter's `Do not export or build`
 
+This also makes NDMF export the built test avatar files to the `Assets/ZZZ_GeneratedAssets` folder in your assets.
+
 ### Don't Run VRCFury
 
 This allows you to skip running all VRCFury components.

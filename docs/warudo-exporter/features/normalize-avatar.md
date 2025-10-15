@@ -10,5 +10,5 @@ Key difference from Hai's exporter is that since this runs as a NDMF pass, your 
 
 This feature comes with the following option(s):
 
-## Reset Pose to Humanoid Rig Config Pose:
-This option resets avatar's pose in the scene to the pose it has in the humanoid rig config, which should be a T Pose. A T Pose in the scene is required for normalizing to work correctly, otherwise the default pose in Warudo might look wrong. An A pose, for example, will lead to the arms pointing too far behind the avatar's back.
+## Reset Pose to Humanoid Rig Config Pose
+This option resets your avatar's pose in the scene to the pose it has in the humanoid rig config, which should be a T Pose. A T Pose is required for normalizing to work correctly, otherwise the default pose in Warudo might look wrong. An A pose, for example, will lead to the arms pointing too far behind the avatar's back. This option fixes these issues for you.

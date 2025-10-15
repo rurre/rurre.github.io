@@ -35,7 +35,7 @@ If a VRM Blendshape Proxy gets added, a bunch of lipsync related blendshapes cli
 	</tr>
 	<tr>
 		<td>Blink_L</td>
-		<td>"Blink_L", "Eyes_Wink_L", "eye_brink_1_L", "eye_close_L", "eye_joy_L", "ウィンク", "eye_blink_L"</td>
+		<td>Blink_L, Eyes_Wink_L, eye_brink_1_L, eye_close_L, eye_joy_L, ウィンク, eye_blink_L</td>
 	</tr>
 	<tr>
 		<td>Blink_R</td>
@@ -43,14 +43,15 @@ If a VRM Blendshape Proxy gets added, a bunch of lipsync related blendshapes cli
 	</tr>
 </table>
 
-There is currently no way to edit what Blendshapes this feature tries to pick up aside from editing the script directly.
-If you would like to be able to edit what blendshapes are used, let me know!
+:::note
+There is currently no way to edit what Blendshapes this feature tries to pick up aside from editing the script directly. This will be customizable in the future.
+:::
 
 This feature comes with the following option(s):
 
 ## Blendshape Proxy Face Mesh
 This field picks the mesh the VRM Blendshape Proxy will search for Blendshapes on, and later use in Warudo.
 
-If this field is empty, it will try to automatically pick a mesh based on the VRC Avatar Descriptor's Face Mesh.
+If this field is empty, it will try to automatically pick a mesh based on the VRC Avatar Descriptor's assigned `Face Mesh`.
 
-If this field is still empty when exporting, it'll try to find a mesh by comparing blendshape names to the ones we're looking for. If more than half are found, that mesh is selected.
+If this field is still empty when exporting, it'll try to find a mesh by comparing blendshape names to the ones we're looking for. If more than half are found, that mesh gets selected.

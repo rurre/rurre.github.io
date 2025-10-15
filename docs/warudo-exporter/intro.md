@@ -15,7 +15,7 @@ Normally, this is not allowed as Warudo uses Unity 2021, but the tool attempts t
 
 :::note
 
-Please note that the tool is still in it's early stages, and while functional, things might not work for everyone from the start. Bare with me while I iron out the issues, and join the Discord if you want to give feedback.
+Please note that the tool is still in its early stages, and while functional, things might not work for everyone from the start. Bare with me while I iron out the issues, and join the Discord if you want to give feedback.
 
 :::
 

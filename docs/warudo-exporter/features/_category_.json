@@ -1,9 +1,9 @@
 {
 	"label": "Features",
-	"position": 2,
+	"position": 3,
 	"link": {
 		"type": "generated-index",
 		"slug": "/warudo-exporter/features",
-		"description": "The exporter comes with a couple of features that provide the bulk of the compatibility between VRChat and Warudo. These can be toggled on and off if needed.\n\nAll these are non-destructive and run on avatar export. This patches modify a copy of your avatar which ensures none of your actual files are modified. They also fix up your animation clips to work with the new changes."
+		"description": "The exporter comes with a couple of features that provide the bulk of the compatibility between VRChat and Warudo. These can be toggled on and off if needed.\n\nAll these are non-destructive and run on avatar export. These patches modify a copy of your avatar which ensures none of your actual files are modified. They also fix up your animation clips to work with the new changes."
 	}
 }
