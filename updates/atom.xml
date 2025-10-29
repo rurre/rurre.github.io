@@ -33,6 +33,28 @@ If you would like to use the old way of doing this (for whatever reason) you can
         <category label="Tool" term="Tool"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.5.1]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-5-1</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-5-1"/>
+        <updated>2025-10-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: bd_ (prereleases), or had no name at all.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: <code>bd_ (prereleases)</code>, or had no name at all.</li>
+<li>Potentially fixed install wizard's package step failing due to illegal byte sequence error in Japanese system locale? I don't know what exactly causes this but hopefully it got fixed.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders still don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.4.3]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-4-3</id>
         <link href="https://rurre.github.io/updates/warudo-exporter-1-4-3"/>
