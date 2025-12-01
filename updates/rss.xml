@@ -37,6 +37,25 @@ Finally, import the new Unity Package.</p>]]></content:encoded>
             <category>Tool</category>
         </item>
         <item>
+            <title><![CDATA[Warudo Exporter v1.5.1]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-5-1</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-1</guid>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: bd_ (prereleases), or had no name at all.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: <code>bd_ (prereleases)</code>, or had no name at all.</li>
+<li>Potentially fixed install wizard's package step failing due to illegal byte sequence error in Japanese system locale? I don't know what exactly causes this but hopefully it got fixed.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders still don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
             <title><![CDATA[Warudo Exporter v1.5.0]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-0</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-0</guid>
@@ -52,25 +71,6 @@ If you would like to use the old way of doing this (for whatever reason) you can
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
 <ul>
 <li>Shaders don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm looking into a potential workaround.</li>
-</ul>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.5.1]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-5-1</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-1</guid>
-            <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: bd_ (prereleases), or had no name at all.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: <code>bd_ (prereleases)</code>, or had no name at all.</li>
-<li>Potentially fixed install wizard's package step failing due to illegal byte sequence error in Japanese system locale? I don't know what exactly causes this but hopefully it got fixed.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>Shaders still don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
 </ul>]]></content:encoded>
             <category>Warudo</category>
             <category>VRChat</category>
