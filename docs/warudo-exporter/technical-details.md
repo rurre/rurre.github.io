@@ -43,3 +43,24 @@ For this usecase, UMod has a very annoying limitation. It only includes files in
 So, what I do instead is harmony patch UMod to include scripts into it's mod build from *anywhere*, if the script is on the avatar (or prop) and if the script is in a folder called `BuildIncluded` or a subfolder of it.
 
 This means we're not getting and stray scripts included if they're unused, and it also means we don't need to worry about duplicating or moving scripts around. It just works™
+
+
+## Fixing External Scripts Not Working in Warudo Build
+Warudo supports exporting avatars, props and environments with [custom scripts](https://docs.warudo.app/docs/modding/mod-sdk#custom-scripts) attached.
+
+Annoyingly tho, by default, custom scripts don't seem to get linked correctly after exporting. This seems to happen because custom scripts don't get added to the Assembly-CSharp.csproj file. To fix this, users can usually go to `Edit` > `Preferences` > `External Tools` and change the `External Script Editor` from `Open by File Extension` to either `Visual Studio` or `Rider` (depending on which one is installed), then clicking `Regenerate Project Files`. If the user doesn't code, they probably don't have any other options in there. If they do, during export, their code editor will be changed to `Visual Studio`, which should fix this issue.
+
+Additionally, Assembly-CSharp.csproj will be edited to include the needed scripts from `BuildIncluded` folders. This is necessary because scripts inside custom assemblies don't normally get included in a build, and because scripts inside VPM/UPM Packages always need to be in an assembly my own compatibility scripts would otherwise not be added to the build.
+
+## Shaders
+Shaders. **Shaders**. Where do I even begin... I haven't noticed issues with shaders for the longest time, but now that I've looked over it, I'm confident in saying that assets built in Unity 2022 and loaded in Warudo's Unity 2021 don't load shaders correctly. When using Standard shader for example, neither shadows, normal maps or emissions work.
+Seemingly, shader variants (or everything that uses [shader keywords](https://docs.unity3d.com/2022.3/Documentation/Manual/shader-keywords.html)) don't get loaded, and nothing I tried could fix it, with a few weird exceptions.
+
+I tried creating a [ShaderVariantCollection](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ShaderVariantCollection.html) manually and including it in the build. I tried changing the shader variant stripping settings, I tried changing the always included shaders list. None of these made any difference, except when dealing with Standard shader. Strangely enough, including Standard shader in the always included list *does* make the shader work correctly in Warudo, but this only seems to apply to built-in shaders [by design](https://discussions.unity.com/t/problem-about-shaders-in-asset-bundle-and-graphics-always-included-shaders/746555/2).
+
+Currently, as of [v1.5.2](blog/2025-12-01-warudo-exporter-1-5-2.md) a script gets added to the avatar that replaces all materials' shaders with the ones found in Warudo, if they exist. This is done by simply using [Shader.Find()](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Shader.Find.html) and checking every material's shader name, then if it's found, replacing the shader. This fixes built in shaders such as Standard, but doesn't work on custom shaders such as Poiyomi or Liltoon.
+
+Speaking of [Poiyomi](https://www.poiyomi.com/), if you've been using Poiyomi you probably haven't even noticed any of the issues  describe above. This is because Poiyomi doesn't make as much use of shader keywords as other shaders (such as standard), it works around that by creating an optimized copy of the shader during it's [locking in process](https://www.poiyomi.com/general/locking), for every material, which removes all the unused shader features. It does still suffer from some of the same issues as other shaders tho, such as not being able to self-shadow.
+
+
+I'm planning on fixing this issue in the future by providing a `Compatibility Export` option, which will set up a Unity 2021 project for you and export your avatar into it. This project will in turn build the Warudo mod bundle, hopefully avoiding most if not all future compatibility issues.
