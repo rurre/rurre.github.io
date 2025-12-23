@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rurre.github.io/updates</id>
     <title>Pumkin's Tools Blog</title>
-    <updated>2025-12-01T00:00:00.000Z</updated>
+    <updated>2025-12-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rurre.github.io/updates"/>
     <subtitle>Pumkin's Tools Blog</subtitle>
     <icon>https://rurre.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.5.3]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-5-3</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-5-3"/>
+        <updated>2025-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Small update to address some common issues people are having with installing the tool.]]></summary>
+        <content type="html"><![CDATA[<p>Small update to address some common issues people are having with installing the tool.</p>
+<ul>
+<li>Fixed dynamic bone duplicate assembly error, that this time, would happen when you <em>didn't</em> have dynamic bones in the project.</li>
+<li>Bumped VRM version requirement up to 0.128.1 to fix the tool being incompatible with <a href="https://pokemori.booth.pm/items/1025226" target="_blank" rel="noopener noreferrer">Esperecyan's VRM Converter</a> being in VCC.<!-- -->
+<ul>
+<li>This will only affect new installs. If you already have the old required version of VRM imported, you don't have to do anything.</li>
+</ul>
+</li>
+<li>Added new step to the end of the Install Wizard  that will check for compile errors and warn users to resolve them before things start working.</li>
+<li>Fixed install Wizard's packages step getting stuck sometimes depending on if you had a particular source imported in vcc.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-3#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>VRCFury support doesn't seem to work correctly. A bunch of things don't work at all while others kinda still work. I recommend not using it for the time being.</li>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-3#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.5.2]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-5-2</id>
