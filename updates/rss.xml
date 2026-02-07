@@ -4,10 +4,62 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Tue, 23 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.5.4]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-5-4</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-4</guid>
+            <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Decently big update in which I probably broke a bunch of things because my git branches got mixed up and I cherry picked a lot of commits directly into main]]></description>
+            <content:encoded><![CDATA[<p>Decently big update in which I probably broke a bunch of things because my git branches got mixed up and I cherry picked a lot of commits directly into main :fingerguns:</p>
+<ul>
+<li>Set UMod build optimize mode to filesize by default which will result in much smaller .warudo files.</li>
+<li>Fixed builds not working due an invalid mod path on non windows platforms (like linux).</li>
+<li>Added a global option to override build target.<!-- -->
+<ul>
+<li>This would allow linux users to build mods for windows.</li>
+</ul>
+</li>
+<li>Fixed material swap animations not working.<!-- -->
+<ul>
+<li>This uses a script to do the swap instead of the animator. This workaround only works in animator layers and not in BlendTrees though.</li>
+</ul>
+</li>
+<li>Exporter logo now gets replaced by your mod's icon if you have one set.</li>
+<li>Added a new option to <code>Fix Dynamic Bone Update Mode</code> to the exporter.<!-- -->
+<ul>
+<li>This sets the update mode to <code>Normal</code>, which fixes stutters at lower FPS.</li>
+</ul>
+</li>
+<li>Added an option to keep VRC Physbones when removing all other VRC components.</li>
+<li>Added <code>Pumkin's Warudo Exporter</code> prefix to most log messages so that you know what log messages come from it.</li>
+<li>Added a <code>WriteToConsoleOnStart</code> script for debugging.<!-- -->
+<ul>
+<li>This script will write what you give it to the log when the avatar loads in Warudo.</li>
+</ul>
+</li>
+<li>Removed unused animators and menu objects to prevent unnecessary files making it into the mod build.</li>
+<li>Other random bug fixes and UI improvements that I forgor.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-4#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>VRCFury support still doesn't work correctly. I recommend using the <code>Skip VRCFury</code> option to skip it entirely.
+<strong>Workaround:</strong> Remove the exporter component from your avatar, then <code>Build an Editor Test Copy</code>, you can find this option in Unity's top menu bar under <code>Tools</code> &gt; <code>VRCFury</code>. Then add the exporter onto the copy it created and export as normal.</li>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-4#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.5.3]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-3</link>
@@ -428,20 +480,6 @@ For now, you can open your mod settings with the button in the exporter window, 
 <li>Fixed Git check failing in the packages step of the Install Wizard. The check should now work correctly, but just in case I also made it not block the next step.</li>
 </ul>
 <p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter Released!]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-released</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-released</guid>
-            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[After about a month of hard work, Warudo Exporter 1.0 has finally released!]]></description>
-            <content:encoded><![CDATA[<p>After about a month of hard work, Warudo Exporter 1.0 has finally released!</p>
-<p>I'll be supporting it for a while, as there's still a bunch of stuff to do, so stay tuned!</p>
-<p>Check out the <a href="https://rurre.github.io/docs/warudo-exporter">documentation</a> for more info!</p>]]></content:encoded>
             <category>Warudo</category>
             <category>VRChat</category>
             <category>Unity</category>
