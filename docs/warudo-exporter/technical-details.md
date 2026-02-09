@@ -67,7 +67,7 @@ I'm planning on fixing this issue in the future by providing a `Compatibility Ex
 
 
 ## Linux
-Warudo doesn't officially support Linux, but can run through Proton given a little bit of work. UMod, the framework Warudo uses for building and loading mods (custom characters, evironments, props etc.), has a few linux specific bugs. They're documented [here](gist.github.com/redback0/c61c31a358aaf835da1b2c4e904bcb5b), but I will briefly go over them and list how I fixed them.
+Warudo doesn't officially support Linux, but can run through Proton given a little bit of work. UMod, the framework Warudo uses for building and loading mods (custom characters, evironments, props etc.), has a few linux specific bugs. They're documented [here](https://gist.github.com/redback0/c61c31a358aaf835da1b2c4e904bcb5b), but I will briefly go over them and list how I fixed them.
 
 ### Obsolete BuildTarget
 As the gist mentions, attempting to build a mod gives us an error:
