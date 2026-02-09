@@ -64,3 +64,43 @@ Speaking of [Poiyomi](https://www.poiyomi.com/), if you've been using Poiyomi yo
 
 
 I'm planning on fixing this issue in the future by providing a `Compatibility Export` option, which will set up a Unity 2021 project for you and export your avatar into it. This project will in turn build the Warudo mod bundle, hopefully avoiding most if not all future compatibility issues.
+
+
+## Linux
+Warudo doesn't officially support Linux, but can run through Proton given a little bit of work. UMod, the framework Warudo uses for building and loading mods (custom characters, evironments, props etc.), has a few linux specific bugs. They're documented [here](gist.github.com/redback0/c61c31a358aaf835da1b2c4e904bcb5b), but I will briefly go over them and list how I fixed them.
+
+### Obsolete BuildTarget
+As the gist mentions, attempting to build a mod gives us an error:
+> Building an AssetBundle for target '' is not allowed because the required module is not installed.
+
+This is because, by default, UMod tries to build a bundle for the platform it's being run on. For Windows, it uses the correct BuildTarget but for Linux, it uses an old BuildTarget `BuildTarget.StandaloneLinuxUniversal`, which doesn't exist anymore.
+
+Instead of hex editing any dll, I harmony patch this to use the correct new `BuildTarget.StandaloneLinux64`, regardless if you're using the [override build target](./features/global-settings.md#override-build-target) feature or not.
+
+### Empty or Invalid ModAssetPath
+Another bug, relates to the Warudo mod config's `Mod Asset Directory` property. On windows, this needs to be a project relative path starting with `Assets/`. During build, there's a check that runs only on Windows that turns this path from a project relative path, to a full path.
+
+**UMod.BuildEngine.BuildContext.ModAssetsPath:**
+```cs
+public string ModAssetsPath
+{
+	get
+	{
+		if(this.modAssetsFolder == null)
+		{
+			this.modAssetsFolder = this.exportProfile.ModAssetsPath;
+			if(Application.platform == RuntimePlatform.WindowsEditor)
+			{
+			this.modAssetsFolder = this.exportProfile.ModAssetsPath.Trim('\\', '/');
+			if (!Path.IsPathRooted(this.modAssetsFolder))
+				this.modAssetsFolder = new DirectoryInfo(this.modAssetsFolder).FullName;
+			}
+		}
+		return this.modAssetsFolder;
+	}
+}
+```
+
+Instead of hardcoding a platform check and rooting the path, I patch this method to check if path starts with [Application.dataPath](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Application-dataPath.html) which returns the full path to our project assets folder. If it doesn't, I prepend the full path to the project to it, since a valid mod folder path would have to start with `Assets/` anyway. This *should* make the same code work on all platforms.
+
+With these two bugs fixed, we can succesfully build mods on Linux!
