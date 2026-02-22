@@ -4,10 +4,33 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Sat, 07 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.5.5]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-5-5</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-5</guid>
+            <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Fixed support for VRCFury. It should no longer break avatars! 🎉]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Fixed support for VRCFury. It should no longer break avatars! 🎉</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-5#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed a while back tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-5#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
+<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
+If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
+If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
+Finally, import the new Unity Package.</p>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.5.4]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-4</link>
@@ -463,21 +486,6 @@ For now, you can open your mod settings with the button in the exporter window, 
             <description><![CDATA[- Fixed some errors when building. I actually kinda forgor what it was.]]></description>
             <content:encoded><![CDATA[<ul>
 <li>Fixed some errors when building. I actually kinda forgor what it was.</li>
-</ul>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.0.1]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-0-1</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-0-1</guid>
-            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed Git check failing in the packages step of the Install Wizard. The check should now work correctly, but just in case I also made it not block the next step.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed Git check failing in the packages step of the Install Wizard. The check should now work correctly, but just in case I also made it not block the next step.</li>
 </ul>
 <p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
             <category>Warudo</category>

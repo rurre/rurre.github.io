@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrurre_github_io=self.webpackChunkrurre_github_io||[]).push([[9767],{301:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/updates/page/3","page":3,"postsPerPage":10,"totalPages":3,"totalCount":22,"previousPage":"/updates/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
