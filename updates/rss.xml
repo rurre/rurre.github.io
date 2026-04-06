@@ -13,23 +13,27 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-6</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-6</guid>
             <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed support for VRCFury, again!]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed support for VRCFury, again!<!-- -->
+            <description><![CDATA[Warudo Exporter v1.5.6]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v156">Warudo Exporter v1.5.6<a href="https://rurre.github.io/updates/warudo-exporter-1-5-6#warudo-exporter-v156" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.6" title="Direct link to Warudo Exporter v1.5.6">​</a></h2>
+<ul>
+<li>Fixed VRCFury support, again!<!-- -->
 <ul>
 <li>Since support for VRCFury is not official, things can break when fury devs make changes. These things need to be fixed manually so this will happen a bunch more in the future but that's okay, I'll just try to make it work again!</li>
 </ul>
 </li>
+<li>Added a system that generates the required .csproj project files on avatar build if you don't have a code editor installed. This should make custom scripts work without needing to install a code editor like Rider.<!-- -->
+<ul>
+<li>Warudo Exporter automatically adds a bunch of scripts to your avatar to fix compatibility issues, so this not working would cause some things to not work in Warudo as well (like constraints).</li>
+</ul>
+</li>
+<li>Added create new preset button to the blendshape translations ui if no preset is selected.</li>
+<li>Misc UI improvements.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-6#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<p><strong>- There is currently an issue with VRCFury support. If you want to use VRCFury you can downgrade it to version 1.1279.0 for now. This will be fixed next update.</strong></p>
 <ul>
-<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed a while back tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-6#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
-<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
-If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
-If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
-Finally, import the new Unity Package.</p>]]></content:encoded>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content:encoded>
             <category>Warudo</category>
             <category>VRChat</category>
             <category>Unity</category>
