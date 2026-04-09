@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rurre.github.io/updates</id>
     <title>Pumkin's Tools Blog</title>
-    <updated>2026-04-06T00:00:00.000Z</updated>
+    <updated>2026-04-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rurre.github.io/updates"/>
     <subtitle>Pumkin's Tools Blog</subtitle>
     <icon>https://rurre.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.5.7]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-5-7</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-5-7"/>
+        <updated>2026-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Warudo Exporter v1.5.7]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v157">Warudo Exporter v1.5.7<a href="https://rurre.github.io/updates/warudo-exporter-1-5-7#warudo-exporter-v157" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.7" title="Direct link to Warudo Exporter v1.5.7">​</a></h2>
+<ul>
+<li>Fixed export errors related to the project file generation from last update.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-7#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.5.6]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-5-6</id>
@@ -29,7 +51,6 @@
 <li>Misc UI improvements.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-6#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<p><strong>- There is currently an issue with VRCFury support. If you want to use VRCFury you can downgrade it to version 1.1279.0 for now. This will be fixed next update.</strong></p>
 <ul>
 <li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
 </ul>]]></content>
@@ -530,34 +551,6 @@ For now, you can open your mod settings with the button in the exporter window, 
 <li>Fixed "Can't open scene in readonly package" popping up all the time.</li>
 <li>Fixed a bunch of other smaller errors here and there.</li>
 <li>Added warning for mod path being the default value (Assets), which would fail the build if unchanged.</li>
-</ul>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
-        <author>
-            <name>Pumkin</name>
-        </author>
-        <category label="Warudo" term="Warudo"/>
-        <category label="VRChat" term="VRChat"/>
-        <category label="Unity" term="Unity"/>
-        <category label="Tool" term="Tool"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Warudo Exporter v1.1.0]]></title>
-        <id>https://rurre.github.io/updates/warudo-exporter-1-1-0</id>
-        <link href="https://rurre.github.io/updates/warudo-exporter-1-1-0"/>
-        <updated>2025-06-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[- Added initial support for VRCFury.]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li>Added initial support for VRCFury.</li>
-<li>Potentially fixed avatars exporting lying on the floor.</li>
-<li>Potentially fixed package resolve button throwing errors in the installer.</li>
-<li>Added link to this documentation in the tool header. Just click the little (?) in the inspector.</li>
-<li>Fixed error when trying to export without an avatar descriptor.</li>
-<li>Fixed error when trying to build a mod without the exporter script being on the avatar.</li>
-<li>Fixed some other stuff I forgor 💀</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-1-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>A popup complaining about being unable to open a read only scene will popup every time you do something. For now, to fix this open <code>Window</code> &gt; <code>Package Manager</code> and remove NDMF from the list of packages. Then, import NDMF through VRChat Creator Companion.</li>
 </ul>
 <p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content>
         <author>
