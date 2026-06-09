@@ -4,10 +4,70 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Thu, 09 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.1.3]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-1-3</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-1-3</guid>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auto Accept Copyright Dialog]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auto-accept-copyright-dialog">Auto Accept Copyright Dialog<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-1-3#auto-accept-copyright-dialog" class="hash-link" aria-label="Direct link to Auto Accept Copyright Dialog" title="Direct link to Auto Accept Copyright Dialog">​</a></h2>
+<ul>
+<li>Fixed patch not enabling itself after Unity restart.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.1.2]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-1-2</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-1-2</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auto Accept Copyright Dialog]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auto-accept-copyright-dialog">Auto Accept Copyright Dialog<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-1-2#auto-accept-copyright-dialog" class="hash-link" aria-label="Direct link to Auto Accept Copyright Dialog" title="Direct link to Auto Accept Copyright Dialog">​</a></h2>
+<ul>
+<li>Updated copyright agreement text.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.1.1]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-1-1</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-1-1</guid>
+            <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[General]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="general">General<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-1-1#general" class="hash-link" aria-label="Direct link to General" title="Direct link to General">​</a></h2>
+<ul>
+<li>Fixed settings not saving if scripts reloaded when settings window was open.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auto-accept-copyright-dialog">Auto Accept Copyright Dialog<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-1-1#auto-accept-copyright-dialog" class="hash-link" aria-label="Direct link to Auto Accept Copyright Dialog" title="Direct link to Auto Accept Copyright Dialog">​</a></h2>
+<ul>
+<li>Updated copyright agreement popup.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.1.0]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-1-0</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-1-0</guid>
+            <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auto Accept Copyright Dialog]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auto-accept-copyright-dialog">Auto Accept Copyright Dialog<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-1-0#auto-accept-copyright-dialog" class="hash-link" aria-label="Direct link to Auto Accept Copyright Dialog" title="Direct link to Auto Accept Copyright Dialog">​</a></h2>
+<ul>
+<li>Added a new patch to automatically agree to the VRC SDK copyright agreement when uploading an avatar (or world?, didn't try).</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.5.7]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-7</link>
@@ -133,6 +193,20 @@ Finally, import the new Unity Package.</p>]]></content:encoded>
             <category>Tool</category>
         </item>
         <item>
+            <title><![CDATA[VRChat SDK Patches v1.0.4]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-0-4</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-0-4</guid>
+            <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anonymize Avatar Name]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anonymize-avatar-name">Anonymize Avatar Name<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-0-4#anonymize-avatar-name" class="hash-link" aria-label="Direct link to Anonymize Avatar Name" title="Direct link to Anonymize Avatar Name">​</a></h2>
+<ul>
+<li>Fixed closing Unity not saving settings if the settings window was left open.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
             <title><![CDATA[Warudo Exporter v1.5.3]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-3</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-3</guid>
@@ -160,6 +234,48 @@ If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/A
 If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
 Finally, import the new Unity Package.</p>]]></content:encoded>
             <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.0.3]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-0-3</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-0-3</guid>
+            <pubDate>Tue, 16 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anonymize Avatar Name]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anonymize-avatar-name">Anonymize Avatar Name<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-0-3#anonymize-avatar-name" class="hash-link" aria-label="Direct link to Anonymize Avatar Name" title="Direct link to Anonymize Avatar Name">​</a></h2>
+<ul>
+<li>Made list of possible names reoderable.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.0.1]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-0-1</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-0-1</guid>
+            <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[General]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="general">General<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-0-1#general" class="hash-link" aria-label="Direct link to General" title="Direct link to General">​</a></h2>
+<ul>
+<li>Fixed VRC SDK dependency being outdated.</li>
+</ul>]]></content:encoded>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[VRChat SDK Patches v1.0.2]]></title>
+            <link>https://rurre.github.io/updates/vrc-sdk-patches-1-0-2</link>
+            <guid>https://rurre.github.io/updates/vrc-sdk-patches-1-0-2</guid>
+            <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anonymize Avatar Name]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anonymize-avatar-name">Anonymize Avatar Name<a href="https://rurre.github.io/updates/vrc-sdk-patches-1-0-2#anonymize-avatar-name" class="hash-link" aria-label="Direct link to Anonymize Avatar Name" title="Direct link to Anonymize Avatar Name">​</a></h2>
+<ul>
+<li>Sanitize avatar names before saving them. This replaces all illegal path characters (from <code>Path.GetIllegalPathCharacters()</code>) with underscores.</li>
+</ul>]]></content:encoded>
             <category>VRChat</category>
             <category>Unity</category>
             <category>Tool</category>
@@ -328,175 +444,6 @@ Finally, import the new Unity Package.</p>]]></content:encoded>
 If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
 If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
 Finally, import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.3.4]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-3-4</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-4</guid>
-            <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed avatar's arms being behind their back if exported in an A pose. Again. It should reset your pose to the rig config pose before normalizing now (which should be a T pose).]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed avatar's arms being behind their back if exported in an A pose. Again. It should reset your pose to the rig config pose before normalizing now (which should be a T pose).</li>
-<li>Fixed custom scripts for Constraint compatibility and Material Swap animations not working. This should hopefully fix all custom scripts not working in Warudo.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-4#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
-<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
-If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
-If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
-Finally, import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.3.3]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-3-3</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-3</guid>
-            <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed bug with the Add VRM 0.x Blendshape Proxy if Missing option that caused your avatar to not load or load broken if you were missing the blendshapes it was looking for.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed bug with the <code>Add VRM 0.x Blendshape Proxy if Missing</code> option that caused your avatar to not load or load broken if you were missing the blendshapes it was looking for.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-3#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
-<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
-If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
-If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
-Finally, import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.3.2]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-3-2</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-2</guid>
-            <pubDate>Sat, 02 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed avatar arms/shoulders pointing too far in after normalizing bones if your avatar was in a A pose instead of a T pose in the scene.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed avatar arms/shoulders pointing too far in after normalizing bones if your avatar was in a A pose instead of a T pose in the scene.</li>
-<li>Added missing <code>com.unity.cinemachine</code> dependency to package.json. You no longer need to import this manually.</li>
-<li>Disabled <code>Assign FX Controller to Animator</code> by default as it was causing some confusion.</li>
-</ul>
-<p>To update, delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>
-<p>⚠️ <strong>Note</strong> ⚠️
-The exporter will now import itself into the <code>Packages</code> folder so it will end up in <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> . In the future, this folder will be the one you'll have to remove when updating. You can however, remove this with the Unity Package Manager by going to <code>Window</code> &gt; <code>Package Manager</code> and removing <code>Pumkin's Warudo Exporter</code> from there.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.3.1]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-3-1</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-1</guid>
-            <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[This whole release focused on reworking the package installer to be more reliable. Did I succeed? I don't know yet!]]></description>
-            <content:encoded><![CDATA[<p>This whole release focused on reworking the package installer to be more reliable. Did I succeed? I don't know yet!</p>
-<ul>
-<li>Reworked Install Wizard's package installer step to use <a href="https://github.com/vrc-get/" target="_blank" rel="noopener noreferrer">vrc-get</a>. This should hopefully make it less likely to break all the time. This does mean you might see a spooky cmd window pop up for a second when installing packages.</li>
-<li>Made Warudo Exporter a VPM package. This means it now lives in the Packages folder and has other vpm packages show up as dependencies.</li>
-<li>Created a VPM repo for VRM packages Warudo sdk needs. The repo for these gets added automatically.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>Avatar arms/shoulders point inwards after getting normalized if the avatar was in a A pose instead of a T pose in the scene. This will be fixed next update.</li>
-<li>If you're getting "Can't open scene in readonly package" pop up all the time, update the <code>Non-Destructive Modular Framework</code> package inside VRChat Creator Companion.</li>
-</ul>
-<p>To update, delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>
-<p>⚠️ <strong>Note</strong> ⚠️
-The exporter will now import itself into the <code>Packages</code> folder so it will end up in <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> . In the future, this folder will be the one you'll have to remove when updating. You can however, remove this with the Unity Package Manager by going to <code>Window</code> &gt; <code>Package Manager</code> and removing <code>Pumkin's Warudo Exporter</code> from there.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.3.0]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-3-0</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-3-0</guid>
-            <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed compile error related to DynamicBones not being in the project after importing the tools.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed compile error related to DynamicBones not being in the project after importing the tools.</li>
-<li>Disabled <code>Remove VRC Components</code> by default as it was causing a bunch of confusion.</li>
-<li>Fixed project exploding if FinalIK was in the project when importing the tools.</li>
-<li>Potentially fixed project exploding if UniVRM was in the project, in the Assets folder. Haven't tested this properly, might still explode.</li>
-<li>Added a new option to <code>Add VRM Blendshape Proxy if Missing</code> to your avatar. This skips having to manually setup VRM blendshapes if using VRM 0.x blendshapes for face tracking.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-3-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>
-<p>Exported Warudo mod bundles are much larger in file size than they should be if your project has a lot of stuff in it. It seems like a bunch of unnecessary assets get included in the build. While this has been an issue from the start, it has only now come to my attention.
-For now, you can open your mod settings with the button in the exporter window, go to the <code>Build</code> tab and set the <code>Optimize For</code> setting to <code>File Size</code>. This will cut down the file size significantly (often from like 500mb to 90mb). I'm looking into fixing this soon.</p>
-</li>
-<li>
-<p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
-</li>
-</ul>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.2.0]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-2-0</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-2-0</guid>
-            <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed VRCFury avatar copy being left in the scene when not using VRCFury.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed VRCFury avatar copy being left in the scene when not using VRCFury.</li>
-<li>Fixed unlocked Poiyomi materials in material swap animations not getting locked.</li>
-<li>Added workaround for material swap animations crashing Warudo. <strong>Tell me if it works for you!</strong></li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-2-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<p>If you're getting "Can't open scene in readonly package" pop up all the time, in the top unity menu bar, go to <code>Window</code> &gt; <code>Package Manager</code> and remove the <code>Non-Destructive Modular Framework</code> package, then import it through VRChat Creator Companion. You can add it to VCC from <a href="https://modular-avatar.nadena.dev/" target="_blank" rel="noopener noreferrer">here</a></p>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.1.2]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-1-2</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-1-2</guid>
-            <pubDate>Sun, 06 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Test build assets should no longer disappear after going into play mode.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Test build assets should no longer disappear after going into play mode.</li>
-<li>Warudo sdk step should no longer explode the project if Dynamic Bones already exist in the project.</li>
-<li>Fixed Arkit blendshape translation error when blendshape with name we're trying to translate to already exists.</li>
-</ul>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.1.1]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-1-1</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-1-1</guid>
-            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>VRCFury support fixes. Fury now runs before NDMF, Modular Avatar and my exporter. This should fix armature link not working correctly.</li>
-<li>Install Wizard package installer fixes. Should be a bit less likely to blow up your project now.</li>
-<li>Fixed packages like NDMF not installing.</li>
-<li>Added warnings for vrlabs dynamic bone and finalik stubs in project.</li>
-<li>Fixed "Can't open scene in readonly package" popping up all the time.</li>
-<li>Fixed a bunch of other smaller errors here and there.</li>
-<li>Added warning for mod path being the default value (Assets), which would fail the build if unchanged.</li>
-</ul>
-<p>To update delete the <code>Assets/Pumkin</code> folder. If you already imported the Warudo SDK, also delete the <code>Assets/Warudo</code>, <code>Assets/Warudo SDK</code> and <code>Assets/Packages</code> folders. Then import the new Unity Package.</p>]]></content:encoded>
             <category>Warudo</category>
             <category>VRChat</category>
             <category>Unity</category>
