@@ -26,6 +26,11 @@ const sidebars: SidebarsConfig = {
       label: 'Editor Screenshot',
       href: 'https://github.com/rurre/Editor-Screenshot/',
     },
+    {
+      type: 'link',
+      label: 'VRChat SDK Patches',
+      href: 'https://github.com/rurre/vrc-sdk-patches/',
+    },
   ],
 
   // But you can create a sidebar manually
