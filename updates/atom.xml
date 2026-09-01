@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rurre.github.io/updates</id>
     <title>Pumkin's Tools Blog</title>
-    <updated>2026-08-02T00:00:00.000Z</updated>
+    <updated>2026-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rurre.github.io/updates"/>
     <subtitle>Pumkin's Tools Blog</subtitle>
     <icon>https://rurre.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Warudo Exporter v1.5.11]]></title>
+        <id>https://rurre.github.io/updates/warudo-exporter-1-5-11</id>
+        <link href="https://rurre.github.io/updates/warudo-exporter-1-5-11"/>
+        <updated>2026-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Warudo Exporter v1.5.11]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v1511">Warudo Exporter v1.5.11<a href="https://rurre.github.io/updates/warudo-exporter-1-5-11#warudo-exporter-v1511" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.11" title="Direct link to Warudo Exporter v1.5.11">​</a></h2>
+<ul>
+<li>Fixed install wizard getting stuck on installing packages. Again.<!-- -->
+<ul>
+<li>You now get a warning if packages that can't be resolved automatically are found.</li>
+</ul>
+</li>
+<li>Fixed errors with VRC Physbone Collider conversion to DynamicBones. Again, as well.<!-- -->
+<ul>
+<li>This one seems to have been unrelated to the last fix.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-11#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content>
+        <author>
+            <name>Pumkin</name>
+        </author>
+        <category label="Warudo" term="Warudo"/>
+        <category label="VRChat" term="VRChat"/>
+        <category label="Unity" term="Unity"/>
+        <category label="Tool" term="Tool"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Warudo Exporter v1.5.10]]></title>
         <id>https://rurre.github.io/updates/warudo-exporter-1-5-10</id>
@@ -471,29 +502,6 @@ If you would like to use the old way of doing this (for whatever reason) you can
 <ul>
 <li>Shaders don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm looking into a potential workaround.</li>
 </ul>]]></content>
-        <author>
-            <name>Pumkin</name>
-        </author>
-        <category label="Warudo" term="Warudo"/>
-        <category label="VRChat" term="VRChat"/>
-        <category label="Unity" term="Unity"/>
-        <category label="Tool" term="Tool"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Warudo Exporter v1.4.3]]></title>
-        <id>https://rurre.github.io/updates/warudo-exporter-1-4-3</id>
-        <link href="https://rurre.github.io/updates/warudo-exporter-1-4-3"/>
-        <updated>2025-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[- Fixed avatar exporting broken if VRCFury was not imported.]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li>Fixed avatar exporting broken if VRCFury was not imported.</li>
-<li>Export should fail if something goes wrong now, instead of exporting broken.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-update">How to Update:<a href="https://rurre.github.io/updates/warudo-exporter-1-4-3#how-to-update" class="hash-link" aria-label="Direct link to How to Update:" title="Direct link to How to Update:">​</a></h3>
-<p>Either delete the <code>&lt;your project&gt;/Packages/io.github.rurre.warudo-exporter/</code> folder OR in Unity, at the top, go to <code>Window</code> &gt; <code>Package Manager</code> find <code>Pumkin's Warudo Exporter</code> and remove it there.
-If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
-If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
-Finally, import the new Unity Package.</p>]]></content>
         <author>
             <name>Pumkin</name>
         </author>
