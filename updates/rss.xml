@@ -4,18 +4,76 @@
         <title>Pumkin's Tools Blog</title>
         <link>https://rurre.github.io/updates</link>
         <description>Pumkin's Tools Blog</description>
-        <lastBuildDate>Tue, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.6.1]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-6-1</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-6-1</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Added check for Magica Cloth 2 in the project.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Added check for Magica Cloth 2 in the project.<!-- -->
+<ul>
+<li>If it's missing, the install wizard will import dummy script stubs, to allow the new physics conversion to work.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-6-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Exporter might not install if Magica Cloth 2 is missing. Will next update!</li>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
+        <item>
+            <title><![CDATA[Warudo Exporter v1.6.0]]></title>
+            <link>https://rurre.github.io/updates/warudo-exporter-1-6-0</link>
+            <guid>https://rurre.github.io/updates/warudo-exporter-1-6-0</guid>
+            <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Replaced Physbone -> Dynamic Bone conversion with a new Physbone -> Magica Cloth 2 conversion.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Replaced Physbone -&gt; Dynamic Bone conversion with a new Physbone -&gt; Magica Cloth 2 conversion.<!-- -->
+<ul>
+<li>This is a pretty big one! Let me know what you think!</li>
+</ul>
+</li>
+<li>UI toggles have a bit of a background now to make it more clear that some options have settings.<!-- -->
+<ul>
+<li>Not sure how I feel about this, but let me know what you think.</li>
+</ul>
+</li>
+<li>Added rudimentary support for VRC Avatar Parameter drivers.<!-- -->
+<ul>
+<li>This makes things like turning one toggle on turning another one off possible, like in VRC. More toggle support coming soon!</li>
+</ul>
+</li>
+<li>Little things my dizorganized ass probably forgot.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="finally-160-that-means-the-shader-issue-is-now-fixed-right">Finally, 1.6.0, that means the shader issue is now fixed right?<a href="https://rurre.github.io/updates/warudo-exporter-1-6-0#finally-160-that-means-the-shader-issue-is-now-fixed-right" class="hash-link" aria-label="Direct link to Finally, 1.6.0, that means the shader issue is now fixed right?" title="Direct link to Finally, 1.6.0, that means the shader issue is now fixed right?">​</a></h3>
+<p>Uh, no, not yet! I felt like I couldn't keep putting new features behind 1.5.x, so 1.6.0. However, the shader issue is next on my list of things to try and fix, alongside another decently big feature that I will talk about closer to release.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-6-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
+<ul>
+<li>Exporter might not install if Magica Cloth 2 is missing. Will next update!</li>
+<li>Shaders still don't export correctly, with shaders missing keywords-related features (stuff like emissions and normal maps in Standard shader [standard has been fixed this udpate tho!]), as well as not casting shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
+</ul>]]></content:encoded>
+            <category>Warudo</category>
+            <category>VRChat</category>
+            <category>Unity</category>
+            <category>Tool</category>
+        </item>
         <item>
             <title><![CDATA[Warudo Exporter v1.5.11]]></title>
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-11</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-11</guid>
             <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.11]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v1511">Warudo Exporter v1.5.11<a href="https://rurre.github.io/updates/warudo-exporter-1-5-11#warudo-exporter-v1511" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.11" title="Direct link to Warudo Exporter v1.5.11">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed install wizard getting stuck on installing packages. Again.]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed install wizard getting stuck on installing packages. Again.<!-- -->
 <ul>
 <li>You now get a warning if packages that can't be resolved automatically are found.</li>
@@ -41,9 +99,8 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-10</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-10</guid>
             <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.10]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v1510">Warudo Exporter v1.5.10<a href="https://rurre.github.io/updates/warudo-exporter-1-5-10#warudo-exporter-v1510" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.10" title="Direct link to Warudo Exporter v1.5.10">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed errors with VRC Physbone Collider conversion to DynamicBones.]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed errors with VRC Physbone Collider conversion to DynamicBones.</li>
 <li>Other small fixes and changes that I forgor 💀</li>
 </ul>
@@ -61,9 +118,8 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-9</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-9</guid>
             <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.9]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v159">Warudo Exporter v1.5.9<a href="https://rurre.github.io/updates/warudo-exporter-1-5-9#warudo-exporter-v159" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.9" title="Direct link to Warudo Exporter v1.5.9">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed install wizard hanging on installing packages forever.]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed install wizard hanging on installing packages forever.</li>
 <li>Added new option to convert VRC Physbones to Dynamic Bones instead of letting Warudo do it.<!-- -->
 <ul>
@@ -88,9 +144,8 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-8</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-8</guid>
             <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.8]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v158">Warudo Exporter v1.5.8<a href="https://rurre.github.io/updates/warudo-exporter-1-5-8#warudo-exporter-v158" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.8" title="Direct link to Warudo Exporter v1.5.8">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed errors with VRChat SDK 3.10.X]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed errors with VRChat SDK 3.10.X</li>
 <li>Install wizard will now upgrade and downgrade dependency packages as needed.</li>
 <li>Fixed install wizard hanging if you have too many package repos in VRC Creator Companion/ALCOM. (I'm not sure if I already posted this).</li>
@@ -175,9 +230,8 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-7</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-7</guid>
             <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.7]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v157">Warudo Exporter v1.5.7<a href="https://rurre.github.io/updates/warudo-exporter-1-5-7#warudo-exporter-v157" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.7" title="Direct link to Warudo Exporter v1.5.7">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed export errors related to the project file generation from last update.]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed export errors related to the project file generation from last update.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-7#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
@@ -194,9 +248,8 @@
             <link>https://rurre.github.io/updates/warudo-exporter-1-5-6</link>
             <guid>https://rurre.github.io/updates/warudo-exporter-1-5-6</guid>
             <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Warudo Exporter v1.5.6]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="warudo-exporter-v156">Warudo Exporter v1.5.6<a href="https://rurre.github.io/updates/warudo-exporter-1-5-6#warudo-exporter-v156" class="hash-link" aria-label="Direct link to Warudo Exporter v1.5.6" title="Direct link to Warudo Exporter v1.5.6">​</a></h2>
-<ul>
+            <description><![CDATA[- Fixed VRCFury support, again!]]></description>
+            <content:encoded><![CDATA[<ul>
 <li>Fixed VRCFury support, again!<!-- -->
 <ul>
 <li>Since support for VRCFury is not official, things can break when fury devs make changes. These things need to be fixed manually so this will happen a bunch more in the future but that's okay, I'll just try to make it work again!</li>
@@ -405,47 +458,6 @@ Finally, import the new Unity Package.</p>]]></content:encoded>
 If you already imported the Warudo SDK, also delete <code>&lt;your project&gt;/Assets/Warudo</code>, <code>&lt;your project&gt;/Assets/Warudo SDK</code> and <code>&lt;your project&gt;/Assets/Packages</code> folders.
 If updating from a super old version, also delete the <code>&lt;your project&gt;/Assets/Pumkin/</code> folder, if it exists.
 Finally, import the new Unity Package.</p>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.5.1]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-5-1</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-1</guid>
-            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: bd_ (prereleases), or had no name at all.]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>Fixed install wizard's package step failing if you had repositories in vcc that had paranthesis in their names ex: <code>bd_ (prereleases)</code>, or had no name at all.</li>
-<li>Potentially fixed install wizard's package step failing due to illegal byte sequence error in Japanese system locale? I don't know what exactly causes this but hopefully it got fixed.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-1#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>Shaders still don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm working on a fix that will release in v1.6.0. Thank you for your patience!</li>
-</ul>]]></content:encoded>
-            <category>Warudo</category>
-            <category>VRChat</category>
-            <category>Unity</category>
-            <category>Tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Warudo Exporter v1.5.0]]></title>
-            <link>https://rurre.github.io/updates/warudo-exporter-1-5-0</link>
-            <guid>https://rurre.github.io/updates/warudo-exporter-1-5-0</guid>
-            <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- ❗ Workflow change! Mod settings now get defined inside the exporter component. This lets you skip having to go through Warudo sdk menus or create folders. It just works™]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>❗ <strong>Workflow change!</strong> Mod settings now get defined inside the exporter component. This lets you skip having to go through Warudo sdk menus or create folders. It just works™
-You can also save settings to an asset and reuse it among different avatars!
-If you would like to use the old way of doing this (for whatever reason) you can select the <code>Mod Info Source</code> to <code>FromWarudoSdk</code>.</li>
-<li>Fixed all scenes getting closed when exporting an avatar.</li>
-<li>Fixed a bunch of random errors that have been reported recently.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="known-issues">Known Issues:<a href="https://rurre.github.io/updates/warudo-exporter-1-5-0#known-issues" class="hash-link" aria-label="Direct link to Known Issues:" title="Direct link to Known Issues:">​</a></h3>
-<ul>
-<li>Shaders don't export correctly, with shaders like <code>Standard</code> missing stuff like emissions and normal maps, as well as not shadows. I'm looking into a potential workaround.</li>
-</ul>]]></content:encoded>
             <category>Warudo</category>
             <category>VRChat</category>
             <category>Unity</category>
