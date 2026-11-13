@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.9
 - Fixed install wizard hanging on installing packages forever.
 - Added new option to convert VRC Physbones to Dynamic Bones instead of letting Warudo do it.
   - This uses code from [FACS01's conversion tool](https://github.com/FACS01-01/PhysBone-to-DynamicBone). Thank you!

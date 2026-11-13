@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.10
 - Fixed errors with VRC Physbone Collider conversion to DynamicBones.
 - Other small fixes and changes that I forgor 💀
 

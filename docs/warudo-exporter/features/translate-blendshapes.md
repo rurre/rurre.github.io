@@ -17,7 +17,7 @@ To create a new preset, right click in your `Assets` (Project tab) then,
  `Pumkin` > `Warudo Exporter` > `Blendshape Translations`. Alternatively, you can copy one of the existing presets that came with the tool.
 
 Once selected, a preset can be edited by clicking the `Edit` button next to it. This pops up the translation window.
-If you try to edit a build in preset, you'll be asked to create a copy before you can edit it.
+If you try to edit a built-in preset, you'll be asked to create a copy before you can edit it.
 
 ![copy preset dialog](img/translation-preset-create-copy.png)
 
@@ -32,13 +32,16 @@ Next let's look at what everything does.
 - `Weight`: This field serves as a "multiplier" for the blendshape data of each `Source Blendshape`. If the weight is 0, the source blendshape gets ignored. If the weight is 1, the source blendshape gets merged as is, if the weight is 2, the source blendshape is doubled in movement, if it's -1, it gets inverted and so on.
 - `Side`: This option allows us to split the `Source Blendshape` down the center of the bounds of the mesh. If `Left` is selected, only the vertices to the left of the center of the mesh will be included, if `Right` is selected only the right ones. If `Both` is selected, well.. the whole blendshape gets copied.
 
-## Build-in Presets
+## Built-in Presets
 Currently, there's two build in presets:
 
 ### EchoTheNeko to ARKit
 Use this preset if your avatar comes with a [EchoTheNeko](https://echotheneko.booth.pm/) face tracking prefab.
 
 ### Universal Expressions to ARKit
-Use this preset if your avatar comes with [Jerry's Face Tracking](https://adjerry91.booth.pm/), [Fermata Face Tracking](https://fermat.booth.pm/) or [Hash's Face Tracking](https://hashedits.booth.pm/)
+Use this preset if your avatar comes with a [Jerry's Face Tracking](https://adjerry91.booth.pm/), [Fermata Face Tracking](https://fermat.booth.pm/) or [Hash's Face Tracking](https://hashedits.booth.pm/)
+
+### Echo_DNG to ARkit
+Use this preset if your avatar comes with a [Echo_DNG](https://echodng.booth.pm/) face tracking prefab.
 
 Would you like to see more in here or suggest improvements? Let me know!

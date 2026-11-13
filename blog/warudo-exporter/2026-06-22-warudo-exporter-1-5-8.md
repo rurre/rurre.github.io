@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.8
 - Fixed errors with VRChat SDK 3.10.X
 - Install wizard will now upgrade and downgrade dependency packages as needed.
 - Fixed install wizard hanging if you have too many package repos in VRC Creator Companion/ALCOM. (I'm not sure if I already posted this).

@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.7
 - Fixed export errors related to the project file generation from last update.
 
 ### Known Issues:

@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.11
 - Fixed install wizard getting stuck on installing packages. Again.
   - You now get a warning if packages that can't be resolved automatically are found.
 - Fixed errors with VRC Physbone Collider conversion to DynamicBones. Again, as well.

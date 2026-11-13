@@ -5,7 +5,6 @@ authors: [pumkin]
 tags: [warudo, vrchat, unity, tool]
 ---
 
-## Warudo Exporter v1.5.6
 - Fixed VRCFury support, again!
   - Since support for VRCFury is not official, things can break when fury devs make changes. These things need to be fixed manually so this will happen a bunch more in the future but that's okay, I'll just try to make it work again!
 - Added a system that generates the required .csproj project files on avatar build if you don't have a code editor installed. This should make custom scripts work without needing to install a code editor like Rider.
